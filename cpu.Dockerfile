@@ -1,6 +1,7 @@
 FROM jupyter/base-notebook:hub-1.5.0
 
 ENV DEBIAN_FRONTEND noninteract
+ENV JUPYTER_ENABLE_LAB yes
 
 USER root
 
